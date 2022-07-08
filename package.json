@@ -10,8 +10,9 @@
     "lint:js": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
     "lint": "yarn lint:js",
     "test-storybook": "test-storybook -c .nuxt-storybook/storybook --url http://localhost:3003",
-    "build-storybook": "build-storybook",
-    "lintfix": "yarn lint:js --fix"
+    "build-storybook": "nuxt storybook build",
+    "lintfix": "yarn lint:js --fix",
+    "chromatic": "npx chromatic --project-token=68db59d06eeb"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
@@ -41,5 +42,7 @@
   },
   "engines": {
     "node": "16"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "test@1.0.0"
 }
