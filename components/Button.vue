@@ -1,6 +1,7 @@
 <template>
-  <div>dasda</div>
+  <div>dasda
   <b-button  type="button" @click="click" :style="style">{{ label }}</b-button>
+  </div>
 </template>
 <script>
 export default {
