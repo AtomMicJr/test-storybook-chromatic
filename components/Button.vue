@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div>adadsda
   <b-button  type="button" @click="click" :style="style">{{ label }}</b-button>
   </div>
 </template>
