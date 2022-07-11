@@ -12,7 +12,7 @@
     "test-storybook": "test-storybook -c .nuxt-storybook/storybook --url http://localhost:3003",
     "build-storybook": "nuxt storybook build",
     "lintfix": "yarn lint:js --fix",
-    "chromatic": "npx chromatic --project-token=CHROMATIC_PROJECT_TOKEN --exit-zero-on-changes"
+    "chromatic": "npx chromatic --project-token=68db59d06eeb --exit-zero-on-changes"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
