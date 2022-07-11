@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>Test UI</h1>
   <b-button  type="button" @click="click" :style="style">{{ label }}</b-button>
   </div>
 </template>
